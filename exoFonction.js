@@ -1,3 +1,4 @@
+/*
 //exo 1
 //role : faire la moyenne des notes
 //parametre : 12.50 17 14.50 19
@@ -100,3 +101,73 @@ function verifMail(mailAverif){
     console.log(mailAverif.includes("@"))
 }
 verifMail("contact@gmail.com")
+
+//exo 6
+//role :afficher le resultat d'une addition
+//besoin :des chiffre/nombre
+//rendre :rien car elle s'affiche
+
+function addition(a , b){
+return a+b
+}
+let fin = addition(17,4)
+console.log(fin)
+
+//exo 7
+//role :poser une question
+//besoin :d'une question
+//rendre :réponse de l'utilisateur
+
+function question(message){
+   return prompt (message)
+}
+let reponse = question("comment va tu?")
+
+console.log(reponse)
+
+//exo 8
+//role :convertir des euros en dollars
+//besoin :un montant en euro et le taux de change
+//rendre :prix converti
+
+function conv(prix , taux){
+return prix * taux;
+}
+let converti = conv(3, 1.17);
+console.log(converti)
+
+
+//role : demander un prix et un taux de change a l'utilisateur
+//besoin : rien le mec donne
+//rendre : prix convertit
+function convertisseur(){
+    //demande le prix a convertir
+let prix = parseFloat(prompt("quel prix a convertir?"))
+    //demande le taux
+let taux = parseFloat(prompt("quel taux?"))
+    //convertit
+return prix * taux
+    //rendre le résultat
+    
+}
+let prixConverti=convertisseur()
+alert(`le prix converti est de ${prixConverti}dollars`)
+
+//role : calculer une moyenne a partir des notes donné
+//besoin :
+//rendre :moyenne
+
+function calculNote(){
+
+francais = parseFloat(prompt("note de francais"))
+
+math = parseFloat(prompt("note de math"))
+
+histoire =parseFloat( prompt("note d'histoire"))
+
+svt = parseFloat(prompt("note d'SVT"))
+
+return (francais + math + histoire + svt) /4
+}
+let noteCalcul=calculNote()
+alert(`la moyenne générale de l'élève est de ${noteCalcul}`)
