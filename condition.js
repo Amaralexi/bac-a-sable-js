@@ -132,7 +132,7 @@ console.log(ticket)
 //besoin: non
 //rendre: la reponse de l'utilisateur (rouge,vert,orange ou quelque chose d'autres)
 
-/*
+
 function tricolore() {
     let feuTri = prompt("qu'elle est la couleur du feu tricolore ?")
     return feuTri;
