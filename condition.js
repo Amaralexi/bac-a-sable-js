@@ -129,29 +129,68 @@ console.log(ticket)
 
 //exo 1 deuxième partie
 //role : affiché la couleur du feu tricolore
-//besoin: les couleurs
-//rendre: rien
+//besoin: non
+//rendre: la reponse de l'utilisateur (rouge,vert,orange ou quelque chose d'autres)
 
-
-function tricolore(){
+/*
+function tricolore() {
     let feuTri = prompt("qu'elle est la couleur du feu tricolore ?")
+    return feuTri;
 
-    if(feuTri == "vert"){
+    if (feuTri == "vert") {
 
-    console.log("passe")
+        console.log("passe")
 
-}else if(feuTri == "orange"){
+    } else if (feuTri == "orange") {
 
-    console.log("fonce !")
+        console.log("fonce !")
 
-}else if(feuTri == "rouge"){
+    } else if (feuTri == "rouge") {
 
-    console.log("écrase le")
+        console.log("écrase le")
 
-}else{
+    } else {
 
-    console.log("tu te moque de moi ?")
-}
+        console.log("tu te moque de moi ?")
+    }
 
 }
 tricolore()
+*/
+
+//exo 2 deuxième partie
+//role : faire une moyenne générale et écrire un commentaire en fonction de celle-ci
+//besoin : des notes et des commentaires
+//rendre : la moyenne generale
+
+//fonction de calcul
+
+function calculMoyenne(a, b, c, d) {
+
+    return (a + b + c + d) / 4;
+}
+console.log(`la moyenne de l'élève est: ${calculMoyenne(10,10,5,15)}`)
+
+
+//fonction de note
+
+function comment(note) {
+    if (note <= 10) {
+        console.log("au moins tu étaits présent")
+
+    } else if (note >= 10 && note <= 13) {
+        console.log("poursuis tes rêves")
+
+    } else if (note >= 13 && note <= 15) {
+        console.log("Bon travail")
+
+    } else if (note >= 15 && note <= 17) {
+        console.log("bravo bravo")
+
+    } else if (note >= 18 && note <= 20) {
+        console.log("wow félicitation !")
+    }
+
+}
+let moyenneGeneral=calculMoyenne(10,10,5,15)
+comment(moyenneGeneral)
