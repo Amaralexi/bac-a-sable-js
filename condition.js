@@ -1,3 +1,4 @@
+/*
 //exo 1
 console.log(11 === 10)
 
