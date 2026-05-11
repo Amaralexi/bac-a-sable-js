@@ -1,4 +1,4 @@
-/*
+
 //exo 1
 //role : faire la moyenne des notes
 //parametre : 12.50 17 14.50 19

@@ -195,3 +195,4 @@ function comment(note) {
 }
 let moyenneGeneral=calculMoyenne(10,10,5,15)
 comment(moyenneGeneral)
+
