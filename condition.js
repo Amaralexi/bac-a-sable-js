@@ -157,7 +157,7 @@ function tricolore() {
 
 }
 tricolore()
-*/
+
 
 //exo 2 deuxième partie
 //role : faire une moyenne générale et écrire un commentaire en fonction de celle-ci

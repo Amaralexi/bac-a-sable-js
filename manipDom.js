@@ -31,7 +31,7 @@ paragrapheAmettreEnBleu.classList.add("")
 paragrapheAmettreEnBleu.classList.remove("bg-blue")
 //enelever si il y est mettre si il y est pas
 paragrapheAmettreEnBleu.classList.toggle("bg-blue")
-*/
+
 
 
 document.querySelector("bouton")
@@ -44,4 +44,5 @@ bouton.addEventListener("clic", creerunP)
 function creerunP(){
    document.querySelector("#grosseboite").innerHTML += `<p>eokoprkgvotrkvoprkbg</p>`
 }
+*/
 
