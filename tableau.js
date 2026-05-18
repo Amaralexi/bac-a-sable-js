@@ -1,4 +1,4 @@
-
+/*
 let fruits = ["orange", "tomate", "pomme", "BANANA", "poire", "pêche"]
 
 console.log(`le premier fruit est ${fruits [0]} le dernier fruit est ${fruits[fruits.length-1]}`)
@@ -214,3 +214,4 @@ function casino() {
 
 emojiAleatoire()
 casino()
+*/

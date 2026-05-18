@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "bac-a-sable-js",
+			"path": "."
+		},
+		{
+			"name": "users-images",
+			"path": "../../../Downloads/users-images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
